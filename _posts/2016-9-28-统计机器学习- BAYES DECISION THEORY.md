@@ -24,7 +24,7 @@ tags: [统计机器学习]
 
 ### 基于最小错误率的Bayes决策
 
-- 条件错误率$${P(e|x)}$$
+- 条件错误率$${P(e\mid x)}$$
 - 
   $$
   P(e|x) =
@@ -33,6 +33,7 @@ tags: [统计机器学习]
   P(w_1|x) = 1-P(w_2|x)&& x \in w_2\cr
   \end{cases}
   $$
+
 
 
 
@@ -62,6 +63,7 @@ tags: [统计机器学习]
 
 
 
+
 Bayes 公式
 $$
 P(w_i|x) = \dfrac{P(x|w_i)P(w_i)}{P(x)}=\dfrac{P(x|w_i)P(w_i)}{\sum_{i}P(x|w_i)P(w_i)}
@@ -78,6 +80,7 @@ $$
   $$
   ln(P(x|w_i)P(w_i)) = ln(P(x|w_i))+ln(P(w_i))
   $$
+
 
 
 
