@@ -3,19 +3,19 @@
 # # # # # # # # # # # # #
 
 # Basic
-name:               "Kiko Plus"
+name:               "ZJun"
 
 
 
 author:
-  name:             your-name
+  name:             Jun Zhang
   facebook:         your-id
   twitter:          your-id
   github:           your-id
   linkedin:         your-id
   medium:           your-id
   tumblr:           your-id
-  email:            your-id@your-email.com
+  email:            zhangjun310@live.com
 
 # Google-analytics
 google-analytics:
@@ -26,13 +26,13 @@ disqus:
   id:               "your-id"
 
 # URL
-url:                "https://AWEEKJ.github.io"
+url:                "https://zjcode.github.io"
 #url:               "localhost:4000"
 baseurl:            ""
 
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:           Asia/Seoul
+timezone:           Asia/China
 permalink:          /:year-:month-:day/:title/
 
 # Pagination
