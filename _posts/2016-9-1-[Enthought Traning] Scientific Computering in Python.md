@@ -1,4 +1,8 @@
-# Enthought Traning
+---
+layout: post
+title: Note：Scientific Computering
+tags: [Notes]
+---
 
 ### Scientific Computering
 

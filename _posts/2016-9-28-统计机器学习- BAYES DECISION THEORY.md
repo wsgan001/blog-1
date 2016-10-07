@@ -27,13 +27,13 @@ tags: [统计机器学习]
 - 条件错误率$${P(e\mid x)}$$
 
 
-  $$
+$$
   P(e|x) =
   \begin{cases}
   P(w_2|x) = 1-P(w_1|x)&& x \in w_1\cr
   P(w_1|x) = 1-P(w_2|x)&& x \in w_2\cr
   \end{cases}
-  $$
+$$
 
 
 
@@ -47,9 +47,9 @@ tags: [统计机器学习]
 - 条件错误率
 
 
-  $$
+$$
   P(e|x) = 1-max_{i}P(w_i|x)
-  $$
+$$
 
 - 错误率
 
@@ -60,9 +60,9 @@ tags: [统计机器学习]
 - 决策
 
 
-  $$
+$$
   D(x) = arg \ max_{i}P(w_i|x)
-  $$
+$$
 
 
 
@@ -76,7 +76,7 @@ $$
 P(w_i|x) = \dfrac{P(x|w_i)P(w_i)}{P(x)}=\dfrac{P(x|w_i)P(w_i)}{\sum_{i}P(x|w_i)P(w_i)}
 $$
 
-其中：$$P(w_i)$$先验概率，$$P(x|w_i)$$条件概率
+其中：$$P(w_i)$$先验概率，$$P(x \mid w_i)$$条件概率
 
 
 
@@ -87,9 +87,9 @@ $$
 - 常常做取对数处理
 
 
-  $$
+$$
   ln(P(x|w_i)P(w_i)) = ln(P(x|w_i))+ln(P(w_i))
-  $$
+$$
 
 
 
