@@ -5,6 +5,6 @@ permalink: /about/
 
 ZhangJun
 
-Renming University of China
+Renmin University of China
 
 Interested in Data Sicience
