@@ -20,7 +20,7 @@ tags: [Project]
 
 **Code: humans**
 
-```
+```python
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep 24 10:48:48 2015
@@ -69,9 +69,6 @@ class human(object):
         [self.x_after,self.y_after] = sum_list([self.x_before,self.y_before] , direction)
         self.vector = [self.x_after - self.x_before , self.y_after - self.y_before]
         self.ability = sigmoid(inverse_sigmoid(self.ability) + coef_random * random.randint(-5,5)+ coef_friend * inverse_sigmoid(friend_ability(self.friend,self.ability)))
-        
-        
-        
 
 def sigmoid(x):  # 控制个人能力增长的幅度
     return 2.0/(math.exp(-0.1*x)+1)
@@ -98,8 +95,6 @@ def norm(L):
 def friend_ability(friend_List,self_ability):
     fri_ability = [fri[1].ability for fri in friend_List]
     return (1.0*sum(fri_ability)/len(fri_ability) - self_ability)*0.5 + 1
-        
-            
 
 
 #-------------相遇判断函数-------------------------
@@ -157,8 +152,10 @@ def meet(human1,human2) :
         
 ```
 
+
 **Code: simulate （待注释）**
-```
+
+```python
 # -*- coding: utf-8 -*-
 """
 Created on Thu Sep 24 11:14:11 2015
@@ -294,7 +291,7 @@ for me in have_friend:
 
 
 
-----------
+----
 
 
 **运行以上代码**
