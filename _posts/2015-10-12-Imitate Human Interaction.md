@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Imitate Human Interaction
-tags: [Project]
+title: 模型：Imitate Human Interaction
+tags: [Model]
 ---
 
 
