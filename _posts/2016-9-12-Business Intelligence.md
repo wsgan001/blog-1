@@ -5,7 +5,7 @@ tags: [商务智能]
 ---
 
 
-> Data $\rightarrow$ Information $\rightarrow$ Knowledge
+> Data $$\rightarrow$$ Information $$\rightarrow$$ Knowledge
 
 ### Peference Book
 
