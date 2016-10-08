@@ -7,19 +7,26 @@ tags: [Project]
 **今天我们来制作poker 这个牌类游戏**
 
 1. understanding（理解问题）
->Start with a vague understanding that you refine into a problem.
+
+
+> Start with a vague understanding that you refine into a problem.
 
 2. specify （明确问题）
->Specify how this problem can be made amenable to being coded.
+
+
+> Specify how this problem can be made amenable to being coded.
 
 3. design （设计程序）
->Coding 
+
+
+> Coding 
 
 ----------
 
 游戏规则：
-​	
-	所有可能的手牌
+- 所有可能的手牌
+
+```
 	        • 0- High Card
 	        • 1- One Pair
 	        • 2- Two Pair
@@ -29,17 +36,17 @@ tags: [Project]
 	        • 6- Full House
 	        • 7- Four of a Kind
 	        • 8- Straight Flush
-	
+```
 	【注：我们用其对应的数字作为得分】
 	
 	详细游戏规则自行上维基百科上查看
 
-如何在hands 中存储我们的手牌，手牌由数字和花色组成（可以采用如下方式）：
-​	
+如何在hands 中存储我们的手牌，手牌由数字和花色组成（可以采用如下方式）：	
+```
 	  sf = ['6C', '7C', '8C', '9C', 'TC'] # Straight Flush
 	  fk = ['9D', '9H', '9S', '9C' ,'7D'] # Four of a Kind
 	  fh = ['TD', 'TC', 'TH', '7C', '7D']  #Full House
-
+```
 
 用何种数据结构来存放这些手牌类型：
 ![这里写图片描述](http://img.blog.csdn.net/20151013153112750)
