@@ -38,13 +38,15 @@ tags: [Project]
 	        • 8- Straight Flush
 ```
 	【注：我们用其对应的数字作为得分】
-	
+
 	详细游戏规则自行上维基百科上查看
 
 如何在hands 中存储我们的手牌，手牌由数字和花色组成（可以采用如下方式）：	
 ```
 	  sf = ['6C', '7C', '8C', '9C', 'TC'] # Straight Flush
+	  
 	  fk = ['9D', '9H', '9S', '9C' ,'7D'] # Four of a Kind
+	  
 	  fh = ['TD', 'TC', 'TH', '7C', '7D']  #Full House
 ```
 
