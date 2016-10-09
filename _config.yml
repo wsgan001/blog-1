@@ -41,6 +41,8 @@ markdown:           kramdown
 
 # Navigation
 nav:
+  - name:           "Home"
+    url:            "https://zjcode.github.io"
   - name:           "Archive"
     url:            "/archive"
   - name:           "Tags"
