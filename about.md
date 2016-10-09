@@ -14,7 +14,8 @@ Interested in Data Sicience
 ### skills
 
 - Python/R/Matlab
-- Data Mining
+- Machine Learning
+- Data Analysis
 - Time Series Analysis
 - Social Network Analysis
 - Mathematics Modeling
