@@ -19,6 +19,20 @@ tags: [统计机器学习]
 
 学习的目的在于使期望风险最小化，但可利用信息只有样本，期望风险往往无法计算  **[经验风险最小化归纳原则]**
 
+
+### 机器学习的核心功能
+让分析算法**无需人类干预和显式程序**即可对最新数据进行学习
+这就允许数据科学家根据典型数据集创建一个模型，然后利用算法自动概括和学习这些范例和新的数据源
+
+### 机器学习的过程
+
+机器学习的过程可以看作是最优方案搜索的过程
+
+![](http://ww3.sinaimg.cn/large/801b780ajw1f8s0n17y9gj21em0tuaie.jpg)
+
+
+
+
 ### 机器学习三类基本问题
 
 #### 分类
@@ -93,11 +107,29 @@ Learns a problem together with other related problems at the same time, using a 
 
 #### 组合模型
 
-- Boosting
-  - 结合低性能学习模型来产生一个强大的分类器组
-- Bagging
-  - 结合多个不稳定学习模型来产生稳定预测
+##### Boosting
+
+- 结合低性能学习模型来产生一个强大的分类器组
+
+> 初始化时对每一个训练例赋相等的权重$$1/n$$,然后用该学算法对训练集训练$$t$$轮，每次训练后，对训练失败的训练例赋以较大的权重，也就是让学习算法在后续的学习中集中对比较难的训练例进行学习，从而得到一个预测函数序列$$G_1,⋯, G_m $$, 其中$$G_i$$也有一定的权重，预测效果好的预测函数权重较大，反之较小。最终的预测函数H对分类问题采用有权重的投票方式，对回归问题采用加权平均的方法对新示例进行判别。
+
+- Boosting 的流程
+
+  ![](http://ww2.sinaimg.cn/large/801b780ajw1f8s11g2ej4j213o0ocn3w.jpg)
+
+##### Bagging
+
+- 结合多个不稳定学习模型来产生稳定预测
+
+> 让该学习算法训练多轮，每轮的训练集由从初始的训练集中随机取出的$$n$$个训练样本组成，某个初始训练样本在某轮训练集中可以出现多次或根本不出现，训练之后可得到一个预测函数序列$$h_1，⋯ ⋯h_n$$ ，最终的预测函数H对分类问题采用投票方式，对回归问题采用简单平均方法对新示例进行判别。
+
+- 不稳定模型：Neural Nets, trees 
+- 稳定模型：SVM, KNN.
+
+
 - 主动学习（Active Learning）
+
+----
 
 > [**What's the similarities and differences beetween this 3 methods: bagging, boosting, stacking?**](http://stats.stackexchange.com/questions/18891/bagging-boosting-and-stacking-in-machine-learning)
 >
@@ -119,5 +151,5 @@ Learns a problem together with other related problems at the same time, using a 
 >
 > ![](http://ww2.sinaimg.cn/large/7853084cjw1f81ewgf9soj20np06wt9o.jpg)
 
-
+----
 
