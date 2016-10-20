@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    showProcessingMessages: false,
+    tex2jax: { inlineMath: [['$$','$$'],['$','$'],['\\(','\\)']] }
+  });
+</script>
+<script type="text/javascript" src="../MathJax.js?config=TeX-MML-AM_HTMLorMML"></script>
 
 <header>
   <h1 class="header-small">
