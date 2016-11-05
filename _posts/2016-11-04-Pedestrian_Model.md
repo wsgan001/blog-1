@@ -94,4 +94,4 @@ class MoveObject(object):
 
 最近较忙，今天就先写到这，具体代码实现应该也不是太困难，之后抽空再写一写
 
-具体进展参见GitHub页面中的 [Pedestrian_Model](https://github.com/ZJCODE/Pedestrian_Model/blob/master/Pedestrian_Model.ipynb) repositories 
+具体进展参见GitHub页面中的 [Pedestrian_Model](https://github.com/ZJCODE/Pedestrian_Model/blob/master/Pedestrian_Model.ipynb) repositories [电脑端打开]
