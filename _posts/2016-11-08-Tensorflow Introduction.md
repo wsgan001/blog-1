@@ -202,3 +202,13 @@ with tf.Session() as sess:
 ```
 
 ![](http://ww4.sinaimg.cn/large/801b780ajw1f9kq3kgdn4j21kw0tddme.jpg)
+
+---
+
+### Reference:  
+
+1. [cs224d - stanford](https://cs224d.stanford.edu/lectures/CS224d-Lecture7.pdf)
+
+2. [tensorflow api-docs](https://www.tensorflow.org/versions/r0.11/api_docs/python/train.html#optimizers)
+
+   ​
