@@ -33,7 +33,7 @@ import numpy as np
 | np.dot(a,b)                             | tf.matmul(a, b)                         |
 | a[0,0], a[:,0], a[0,:]                  | a[0,0], a[:,0], a[0,:]                  |
 
-`use eval in ts`
+`use eval in tf`
 
 ```python
 ta = tf.zeros((2,2))
