@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Tensorflow：MNIST For ML Beginners
-tags: [Model]
+tags: [Tensorflow]
+
 ---
 
 ---
