@@ -4,15 +4,42 @@ title: Tensorflow：tensorflow introduction
 tags: [Tensorflow]
 ---
 
-### Background
+### Overview
 
-Theano and Thensoflow
+TensorFlow is a programming system in which you represent computations as **graphs**. Nodes in the graph are called **ops** (short for operations). An op takes zero or more **Tensors**, performs some computation, and produces zero or more Tensors. A Tensor is a typed multi-dimensional array. For example, you can represent a mini-batch of images as a 4-D array of floating point numbers with dimensions [batch, height, width, channels].
+
+A TensorFlow graph is a description of computations. To compute anything, a graph must be launched in a Session. A **Session** places the graph ops onto Devices, such as CPUs or GPUs, and provides methods to execute them. These methods return tensors produced by ops as numpy ndarray objects in **Python**, and as tensorflow::Tensor instances in C and C++.
+
+##### Theano and Thensoflow
 
 > **Theano** and **TensorFlow** are very similar systems. TensorFlow has better support for distributed systems though, and has development funded by Google, while Theano is an academic project.
 
-what does tensorfolw do?
+##### Building the graph
 
-> TensorFlow provides primitives for defining functions on tensors and automatically computing their derivatives
+```python
+import tensorflow as tf
+
+# Create a Constant op that produces a 1x2 matrix.  The op is
+# added as a node to the default graph.
+#
+# The value returned by the constructor represents the output
+# of the Constant op.
+matrix1 = tf.constant([[3., 3.]])
+
+# Create another Constant that produces a 2x1 matrix.
+matrix2 = tf.constant([[2.],[2.]])
+
+# Create a Matmul op that takes 'matrix1' and 'matrix2' as inputs.
+# The returned value, 'product', represents the result of the matrix
+# multiplication.
+product = tf.matmul(matrix1, matrix2)
+
+with tf.Session() as sess:
+    result = sess.run([product])
+    print(result)
+```
+
+The default graph now has three nodes: two constant() ops and one matmul() op. To actually multiply the matrices, and get the result of the multiplication, you must launch the graph in a session.
 
 ---
 
@@ -205,10 +232,36 @@ with tf.Session() as sess:
 
 ---
 
+### Interactive Usage
+
+For ease of use in **interactive** Python environments, such as IPython you can instead use the InteractiveSession class, and the Tensor.eval() and Operation.run() methods. This avoids having to keep a variable holding the session.
+
+```python
+# Enter an interactive TensorFlow Session.
+import tensorflow as tf
+sess = tf.InteractiveSession()
+
+x = tf.Variable([1.0, 2.0])
+a = tf.constant([3.0, 3.0])
+
+# Initialize 'x' using the run() method of its initializer op.
+x.initializer.run()
+
+# Add an op to subtract 'a' from 'x'.  Run it and print the result
+sub = tf.sub(x, a)
+print(sub.eval())
+# ==> [-2. -1.]
+
+# Close the Session when we're done.
+sess.close()
+```
+
+
+
 ### Reference:  
 
 1. [cs224d - stanford](https://cs224d.stanford.edu/lectures/CS224d-Lecture7.pdf)
 
-2. [tensorflow api-docs](https://www.tensorflow.org/versions/r0.11/api_docs/python/train.html#optimizers)
+2. [tensorflow api-docs](https://www.tensorflow.org/versions/r0.11/get_started/basic_usage.html)
 
    ​
