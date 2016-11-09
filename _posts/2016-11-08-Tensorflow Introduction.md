@@ -23,7 +23,7 @@ A TensorFlow graph is a description of computations. To compute anything, a grap
 
 ### Installation and usage
 
-```python
+```
 Create a conda environment called tensorflow:
 # Python 2.7
 $ conda create -n tensorflow python=2.7
@@ -39,10 +39,9 @@ $ source activate tensorflow
 
 # Linux/Mac OS X, Python 2.7/3.4/3.5, CPU only:
 (tensorflow)$ conda install -c conda-forge tensorflow
-
 ```
 
-```python
+```
 $ source activate tensorflow
 (tensorflow)$  # Your prompt should change.
 # Run Python programs that use TensorFlow.
