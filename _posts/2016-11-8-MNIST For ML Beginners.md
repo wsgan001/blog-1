@@ -42,6 +42,9 @@ For the purposes of this tutorial, we're going to want our labels as "one-hot ve
 ### Softmax Regressions
 
 A softmax regression has two steps: first we add up the evidence of our input being in certain classes, and then we convert that evidence into probabilities.
+$$
+\text{softmax}(x)_i = \frac{\exp(x_i)}{\sum_j \exp(x_j)}
+$$
 
 > Here softmax is serving as an "activation" or "link" function, shaping the output of our linear function into the form we want
 
