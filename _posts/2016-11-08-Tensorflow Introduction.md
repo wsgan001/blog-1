@@ -19,7 +19,46 @@ A TensorFlow graph is a description of computations. To compute anything, a grap
 
 > **Theano** and **TensorFlow** are very similar systems. TensorFlow has better support for distributed systems though, and has development funded by Google, while Theano is an academic project.
 
-##### Building the graph
+---
+
+### Installation and usage
+
+```python
+Create a conda environment called tensorflow:
+# Python 2.7
+$ conda create -n tensorflow python=2.7
+# Python 3.4
+$ conda create -n tensorflow python=3.4
+# Python 3.5
+$ conda create -n tensorflow python=3.5
+
+
+Only the CPU version of TensorFlow is available at the moment and can be installed in the conda environment for Python 2 or Python 3.
+$ source activate tensorflow
+(tensorflow)$  # Your prompt should change
+
+# Linux/Mac OS X, Python 2.7/3.4/3.5, CPU only:
+(tensorflow)$ conda install -c conda-forge tensorflow
+
+---
+Ps:
+    
+If you are not building tensorflow with GPU support. you can install tensorflow through conda in one command.
+$ conda install -c https://conda.anaconda.org/jjhelmus tensorflow
+```
+
+```python
+$ source activate tensorflow
+(tensorflow)$  # Your prompt should change.
+# Run Python programs that use TensorFlow.
+...
+# When you are done using TensorFlow, deactivate the environment.
+(tensorflow)$ source deactivate
+```
+
+---
+
+`An easy example`
 
 ```python
 import tensorflow as tf
