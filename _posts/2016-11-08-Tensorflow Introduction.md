@@ -11,6 +11,10 @@ TensorFlow is a programming system in which you represent computations as **grap
 
 A TensorFlow graph is a description of computations. To compute anything, a graph must be launched in a Session. A **Session** places the graph ops onto Devices, such as CPUs or GPUs, and provides methods to execute them. These methods return tensors produced by ops as numpy ndarray objects in **Python**, and as tensorflow::Tensor instances in C and C++.
 
+> TensorFlow has extensive built-in support for deep learning, but is far more general than that -- **any computation that you can express as a computational flow graph, you can compute with TensorFlow** (see some examples). Any **gradient-based** machine learning algorithm will benefit from TensorFlow’s auto-differentiation and suite of first-rate optimizers. And it’s easy to express your new ideas in TensorFlow via the flexible Python interface.
+
+> TensorFlow is graph symbolic framework whereby the optimization is done within the graph. 
+
 ##### Theano and Thensoflow
 
 > **Theano** and **TensorFlow** are very similar systems. TensorFlow has better support for distributed systems though, and has development funded by Google, while Theano is an academic project.
@@ -262,7 +266,8 @@ sess.close()
 ### Reference:  
 
 1. [cs224d - stanford](https://cs224d.stanford.edu/lectures/CS224d-Lecture7.pdf)
-
 2. [tensorflow api-docs](https://www.tensorflow.org/versions/r0.11/get_started/basic_usage.html)
+3. [google research blog](https://research.googleblog.com/2015/11/tensorflow-googles-latest-machine_9.html)
+4. [mnist_softmax.py Code](https://github.com/tensorflow/tensorflow/blob/r0.11/tensorflow/examples/tutorials/mnist/mnist_softmax.py)
+5. [DL4J vs. Torch vs. Theano vs. Caffe vs. TensorFlow](https://deeplearning4j.org/compare-dl4j-torch7-pylearn.html)
 
-   ​
