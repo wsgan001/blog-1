@@ -40,11 +40,6 @@ $ source activate tensorflow
 # Linux/Mac OS X, Python 2.7/3.4/3.5, CPU only:
 (tensorflow)$ conda install -c conda-forge tensorflow
 
----
-Ps:
-    
-If you are not building tensorflow with GPU support. you can install tensorflow through conda in one command.
-$ conda install -c https://conda.anaconda.org/jjhelmus tensorflow
 ```
 
 ```python
