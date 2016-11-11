@@ -27,10 +27,11 @@ take a look
 |                  images                  |                  labels                  |
 | :--------------------------------------: | :--------------------------------------: |
 | ![](http://ww3.sinaimg.cn/large/006y8mN6jw1f9o7bzk9phj30ny09cq4e.jpg) | ![](http://ww2.sinaimg.cn/large/006y8mN6jw1f9o7clkmlrj30jm09c3zt.jpg) |
-
----
+| ![](http://ww2.sinaimg.cn/large/006y8mN6jw1f9o9c4zx83j30n20hcgn3.jpg) | ![](http://ww4.sinaimg.cn/large/006y8mN6jw1f9o9axo9cgj30pm05sdgn.jpg) |
 
 > Here mnist is a lightweight class which stores the **training**, **validation**, and **testing** sets as NumPy arrays.
+
+---
 
 ```python
 import tensorflow as tf
@@ -47,8 +48,15 @@ y_ = tf.placeholder(tf.float32, shape=[None, 10])
 
 ```python
 def weight_variable(shape):
-  initial = tf.truncated_normal(shape, stddev=0.1)
+  initial = tf.truncated_normal(shape, stddev=0.1) 
   return tf.Variable(initial)
+
+# tf.truncated_normal
+# Outputs random values from a truncated normal distribution.
+# The generated values follow a normal distribution with
+# specified mean and standard deviation, except that values
+# whose magnitude is more than 2 standard deviations from 
+# the mean are dropped and re-picked.
 
 def bias_variable(shape):
   initial = tf.constant(0.1, shape=shape)
@@ -61,9 +69,15 @@ def bias_variable(shape):
 def conv2d(x, W):
   return tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME')
 
+# tf.nn.conv2d
+# Computes a 2-D convolution given 4-D `input` and `filter` tensors.
+# Given an input tensor of shape `[batch, in_height, in_width, in_channels]` and a filter / kernel tensor of shape
+
 def max_pool_2x2(x):
   return tf.nn.max_pool(x, ksize=[1, 2, 2, 1],
                         strides=[1, 2, 2, 1], padding='SAME')
+# tf.nn.max_pool 
+# Performs the max pooling on the input.
 ```
 
 ##### First Convolutional Layer
@@ -74,6 +88,8 @@ def max_pool_2x2(x):
 W_conv1 = weight_variable([5, 5, 1, 32])
 b_conv1 = bias_variable([32])
 ```
+
+> To apply the layer, we first reshape x to a **4d tensor**, with the second and third dimensions corresponding to image width and height, and the final dimension corresponding to the number of color channels.
 
 ```python
 x_image = tf.reshape(x, [-1,28,28,1])
