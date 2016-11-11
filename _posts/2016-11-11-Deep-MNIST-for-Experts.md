@@ -20,9 +20,9 @@ mnist = input_data.read_data_sets('MNIST_data', one_hot=True)
 
 take a look
 
-![](http://ww1.sinaimg.cn/large/006y8mN6jw1f9o7bek3caj30m403odg5.jpg)
-
-![](http://ww1.sinaimg.cn/large/006y8mN6jw1f9o7atqd3qj30v003o74x.jpg)
+|                  mnist                   |                  train                   |
+| :--------------------------------------: | :--------------------------------------: |
+| ![](http://ww1.sinaimg.cn/large/006y8mN6jw1f9o7bek3caj30m403odg5.jpg) | ![](http://ww1.sinaimg.cn/large/006y8mN6jw1f9o7atqd3qj30v003o74x.jpg) |
 
 |                  images                  |                  labels                  |
 | :--------------------------------------: | :--------------------------------------: |
