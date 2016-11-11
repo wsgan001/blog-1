@@ -93,10 +93,12 @@ b_conv1 = bias_variable([32])
 
 ```python
 x_image = tf.reshape(x, [-1,28,28,1])
+# If one component of `shape` is the special value -1, the size of that dimension is computed so that the total size remains constant.  In particular, a `shape` of `[-1]` flattens into 1-D.  At most one component of `shape` can be -1.
 ```
 
 ```python
 h_conv1 = tf.nn.relu(conv2d(x_image, W_conv1) + b_conv1)
+# Computes rectified linear: `max(features, 0)`.
 h_pool1 = max_pool_2x2(h_conv1)
 ```
 
@@ -114,6 +116,8 @@ h_pool2 = max_pool_2x2(h_conv2)
 ##### Densely Connected Layer
 
 ```python
+# Now that the image size has been reduced to 7x7, we add a fully-connected layer with 1024 neurons to allow processing on the entire image. 
+# 7 = 28 / 2 / 2
 W_fc1 = weight_variable([7 * 7 * 64, 1024])
 b_fc1 = bias_variable([1024])
 h_pool2_flat = tf.reshape(h_pool2, [-1, 7*7*64])
