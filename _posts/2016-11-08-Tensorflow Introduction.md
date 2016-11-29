@@ -124,7 +124,7 @@ with tf.Session() as sess:
 
 ###  TensorFlow Variables
 
-> When you train a model you use variables to hold andupdate parameters. Variables are in-memory bufferscontaining tensors
+> When you train a model you use variables to hold and update parameters. Variables are in-memory buffers containing tensors
 
 ```python
 W1 = tf.ones((2,2))
