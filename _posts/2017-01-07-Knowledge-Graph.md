@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Knowledge Graph
+title: data science winter school note - Knowledge Graph
 date: 2017-01-07
 tags: [data science winter school note]
 comments: true
