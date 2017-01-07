@@ -1,7 +1,7 @@
 ---
 layout: post
 
-title: [data science winter school note]Knowledge Graph
+title: data science winter school note: Knowledge Graph
 
 date: 2017-01-07
 
