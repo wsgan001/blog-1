@@ -96,16 +96,18 @@ $q$ , allows the search to differentiate between 'inward' and 'outward' nodes
 
 ### Recall Network Embedding Models
 
-• DeepWalk
-​	– Node sentences + word2vec 
-• Node2vec
-​	– DeepWalk + more sampling strategies 
-• GENE
-​	– Group~document + doc2vec(DM, DBOW) 
-• LINE
-​	– Shallow + first-order + second-order proximity 
-• SDNE
-​	– Deep + First-order + second-order proximity
+- DeepWalk
+
+  - Node sentences + word2vec 
+
+- Node2vec
+  - DeepWalk + more sampling strategies 
+- GENE
+  - Group~document + doc2vec(DM, DBOW) 
+- LINE
+  - Shallow + first-order + second-order proximity 
+- SDNE
+  - Deep + First-order + second-order proximity
 
 
 
@@ -118,4 +120,11 @@ $q$ , allows the search to differentiate between 'inward' and 'outward' nodes
   4. Featurecoding
 - Data Visualization
 - Text Classification
+  - free text $\rightarrow$ word co-occurrence network
 - Recommendation
+
+---
+
+1. There are no boundaries between data types and research areas in terms of mythologies
+
+2. Even if the ideas are similar, we can move from shallow to deep if the performance actually improves
