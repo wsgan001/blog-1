@@ -32,7 +32,7 @@ share: true
    predicts surrounding words using the **current word**
 
 
-![](https://ww2.sinaimg.cn/large/006tNbRwjw1fbiz3j7e2kj310m07ygnj.jpg)
+![](https://ww1.sinaimg.cn/large/006tNbRwjw1fbj0hjnvobj31ck0a4n06.jpg)
 
 #### Solver
 
@@ -49,7 +49,7 @@ share: true
 
 >  From language mdeling to graph
 >
-> Node -> Word , Path -> Sentence
+>  Node -> Word , Path -> Sentence
 
 ### DeepWalk
 
@@ -76,8 +76,6 @@ $d_{tx}$ is the distance between $t$ and $x$
 $p$ , control the likelihood of imediately revisiting a node in the walk
 
 $q$ , allows the search to differentiate between 'inward' and 'outward' nodes
-
-
 
 
 
