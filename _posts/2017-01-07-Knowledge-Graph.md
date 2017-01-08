@@ -70,3 +70,7 @@ The Semantic Web. By [Tim Berners-Lee, James Hendler and Ora Lassila](https://ww
 
 [Wikidata](https://en.wikipedia.org/wiki/Wikidata)
 
+[RDF](https://en.wikipedia.org/wiki/Resource_Description_Framework)
+
+The **Resource Description Framework** (**RDF**) is a family of [World Wide Web Consortium](https://en.wikipedia.org/wiki/World_Wide_Web_Consortium) (W3C) [specifications](https://en.wikipedia.org/wiki/Specification)[1] originally designed as a [metadata](https://en.wikipedia.org/wiki/Metadata) [data model](https://en.wikipedia.org/wiki/Data_model). It has come to be used as a general method for conceptual description or modeling of information that is implemented in [web resources](https://en.wikipedia.org/wiki/Web_resource), using a variety of syntax notations and [data serialization](https://en.wikipedia.org/wiki/Data_serialization) formats. It is also used in [knowledge management](https://en.wikipedia.org/wiki/Knowledge_management) applications.
+
