@@ -79,3 +79,43 @@ $q$ , allows the search to differentiate between 'inward' and 'outward' nodes
 
 
 
+### GENE
+
+![](https://ww2.sinaimg.cn/large/006tNbRwjw1fbj1snfvz3j316u0oaag2.jpg)
+
+### LINE
+
+- ​First-order Proximity
+- Second-order Proximity
+
+### SDNE
+
+- Autoencoder
+
+
+
+### Recall Network Embedding Models
+
+• DeepWalk
+​	– Node sentences + word2vec 
+• Node2vec
+​	– DeepWalk + more sampling strategies 
+• GENE
+​	– Group~document + doc2vec(DM, DBOW) 
+• LINE
+​	– Shallow + first-order + second-order proximity 
+• SDNE
+​	– Deep + First-order + second-order proximity
+
+
+
+### Application
+
+- ​Basic Applications
+  1. Networkreconstruction
+  2. Link prediction
+  3. Clustering
+  4. Featurecoding
+- Data Visualization
+- Text Classification
+- Recommendation
