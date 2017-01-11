@@ -1,12 +1,14 @@
 ---
 layout: post
-title: data science winter school note - 自然语言处理的进展
+title: data science winter school note - Advancement of Natural Language Processing
 date: 2017-01-10
 tags: [data science winter school note]
 comments: true
 share: true
 ---
 
+> 周明、刘树杰 
+> 微软研究院
 
 #### 自然语言处理的任务
 
@@ -51,7 +53,5 @@ NLP teches $\rightarrow$ Internet $\rightarrow$ Market $\rightarrow$ Collaborati
 -  Application
 
 
-
-
-
+待补充。。
 

@@ -7,6 +7,9 @@ comments: true
 share: true
 ---
 
+> Jie Tang
+> Tsinghua University
+
 Social Network Mining  — Computational models for mining big social networks
 
 ### What is Social Network ?
@@ -80,6 +83,7 @@ Trace Back :
 ##### Markov Logic Factor Graph
 
 Why logic factors?
+
 1. Depict and utilize correlations between possible candidates from redundant data.
 2. Incorporate human knowledge to guide and amend the classification model.
 
@@ -99,6 +103,7 @@ Basic Idea:
 Identifying users from multiple heterogeneous networks and integrating semantics from the different networks together.
 
 Local vs. Global consistency
+
 - Local matching : matchingusersbyprofiles
 - Network matching : matchingusers’egonetworks
 - Global consistency : matchingusersbyavoiding global inconsistency
@@ -157,12 +162,15 @@ Topic-based Social Influence Analysis
 ### Real Applications 
 
 Big Data Analytics in Game Data
+
 - DNF & QQ Speed
 
 ### Information Diffusion
 
 Structural hole spanners control the information diffusion
+
 Structural hole spanners are more likely to connect important nodes in different communities.
+
 - If a user is connected with many opinion leaders in different communities, more likely to span structural holes.
 - If a user is connected with structural hole spanners , more likely to act as an opinion leader.
 
