@@ -8,6 +8,7 @@ share: true
 ---
 
 > Jie Tang
+
 > Tsinghua University
 
 Social Network Mining  — Computational models for mining big social networks
