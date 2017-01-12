@@ -43,12 +43,12 @@ markdown:           kramdown
 nav:
   - name:           "Home"
     url:            "https://zjcode.github.io"
-  - name:           "Archive"
-    url:            "/archive"
-  - name:           "Tags"
+  - name:           "Category"
     url:            "/tags"
   - name:           "Github"
     url:            "https://github.com/ZJCODE"
+  - name:           "Archive"
+    url:            "/archive"
 
 
 
