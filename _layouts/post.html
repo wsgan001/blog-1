@@ -37,14 +37,6 @@ layout: default
   {{ content }}
 
 
-  <!-- Share -->
-  {% if page.share != false %}
-  <div class="post-share">
-    <hr>
-    {% include share.html %}
-    <hr>
-  </div>
-  {% endif %}
 
 
 <!-- 多说评论框 start -->
@@ -65,6 +57,14 @@ var duoshuoQuery = {short_name:"zjunblog"};
 <!-- 多说公共JS代码 end -->
 
 
+  <!-- Share -->
+  {% if page.share != false %}
+  <div class="post-share">
+    <hr>
+    {% include share.html %}
+    <hr>
+  </div>
+  {% endif %}
 
   <!-- Disqus -->
   {% if page.comments != false and site.disqus.id %}
