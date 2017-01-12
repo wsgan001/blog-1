@@ -2,6 +2,8 @@
 layout: post
 title: 项目：Poker Python 实现
 tags: [Project]
+comments: true
+share: true
 ---
 
 **今天我们来制作poker 这个牌类游戏**

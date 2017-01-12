@@ -2,6 +2,8 @@
 layout: post
 title: Note：SGD Introduction
 tags: [Notes]
+comments: true
+share: true
 ---
 
 ### Gradient

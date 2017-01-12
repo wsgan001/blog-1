@@ -2,6 +2,8 @@
 layout: post
 title: 商务智能：Business Intelligence
 tags: [商务智能]
+comments: true
+share: true
 ---
 
 

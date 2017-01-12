@@ -3,6 +3,8 @@ layout: post
 title: Note：Nuts and Bolts of Applying Deep Learning
 description: "Recap of Andrew Ng's talk at the Bay Area Deep Learning School"
 tags: [Notes]
+comments: true
+share: true
 ---
 
 ![](http://ww4.sinaimg.cn/large/006y8lVajw1f8maopohzcj30sg0lcwg0.jpg)

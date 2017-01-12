@@ -2,6 +2,8 @@
 layout: post
 title: Note：Math Block for Markdown 
 tags: [Notes]
+comments: true
+share: true
 ---
 
 Code:[Inline Math Formula]

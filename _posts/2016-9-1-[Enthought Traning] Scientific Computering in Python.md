@@ -2,6 +2,8 @@
 layout: post
 title: Note：Scientific Computering
 tags: [Notes]
+comments: true
+share: true
 ---
 
 ### Scientific Computering

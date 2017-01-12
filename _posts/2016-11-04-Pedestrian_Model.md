@@ -2,6 +2,8 @@
 layout: post
 title: 模型：Pedestrian Model
 tags: [Model]
+comments: true
+share: true
 ---
 
 

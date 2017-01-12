@@ -2,6 +2,8 @@
 layout: post
 title: 模型：Imitate Human Interaction
 tags: [Model]
+comments: true
+share: true
 ---
 
 

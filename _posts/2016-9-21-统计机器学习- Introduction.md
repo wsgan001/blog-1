@@ -2,6 +2,8 @@
 layout: post
 title: 统计机器学习：Introduction
 tags: [统计机器学习]
+comments: true
+share: true
 ---
 
 

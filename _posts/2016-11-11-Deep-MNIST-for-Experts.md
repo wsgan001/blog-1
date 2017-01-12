@@ -3,6 +3,8 @@ layout: post
 title: Tensorflow：Deep MNIST for Experts
 description: 
 tags: [Tensorflow]
+comments: true
+share: true
 ---
 
 ---

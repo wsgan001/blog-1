@@ -2,6 +2,8 @@
 layout: post
 title: Tensorflow：MNIST For ML Beginners
 tags: [Tensorflow]
+comments: true
+share: true
 ---
 
 ---

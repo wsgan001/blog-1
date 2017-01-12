@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 数据竞赛思路分享：机场客流量的时空分布预测
+date: 2016-11-29
 tags: [Data Competition] 
+comments: true
+share: true
 ---
 
 ![](http://ww4.sinaimg.cn/large/006y8lVajw1fa8unsuemkj31kw0a8783.jpg)

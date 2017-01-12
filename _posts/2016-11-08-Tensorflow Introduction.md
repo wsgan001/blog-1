@@ -3,6 +3,8 @@ layout: post
 title: Tensorflow：tensorflow introduction
 description: "update at 2016-10-09"
 tags: [Tensorflow]
+comments: true
+share: true
 ---
 
 ### Overview
