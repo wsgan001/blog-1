@@ -32,6 +32,7 @@ share: true
    predicts the current word using **surrounding contexts** 
 
 2. Skip-Gram
+
    predicts surrounding words using the **current word**
 
 
@@ -51,7 +52,7 @@ share: true
 
 
 >  From language mdeling to graph
->
+
 >  Node -> Word , Path -> Sentence
 
 ### DeepWalk
