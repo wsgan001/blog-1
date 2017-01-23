@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kaggle : Link Prediction 
+title: Kaggle Link Prediction 
 date: 2017-01-22
 tags: [Data Competition] 
 comments: true
@@ -300,6 +300,10 @@ label_train = train.link.values
 rfc = RandomForestClassifier(n_estimators=200, random_state=0)
 rfc.fit(feature_train,np.array(label_train))  
 pred = rfc.predict(feature_test)
+print 'write submission file '
+submission = pd.DataFrame({'Id':range(len(pred)),'prediction':pred})
+submission.to_csv('submission.csv',header=True,index= False)
+
 ```
 
 ##### Result
