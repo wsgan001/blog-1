@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kaggle Link Prediction 
-date: 2017-01-22
+date: 2017-01-11
 tags: [Data Competition] 
 comments: true
 share: true
