@@ -34,7 +34,7 @@ share: true
 
 For this problem we extract **three kinds of features**
 
-1. Test Feature
+1. Text Feature
    - LSI Vector (used for calculating similarity)
    - TFIDF Vector (used for calculating similarity)
    - Common Words
@@ -62,7 +62,7 @@ Below are main code for feature extraction
 
 more detail can be find in my  github  : [Link Prediction](https://github.com/ZJCODE/Data_Competition/tree/master/Link%20Prediction)
 
-##### Test Feature
+##### Text Feature
 
 ```python
 stpwds = set(nltk.corpus.stopwords.words("english"))
